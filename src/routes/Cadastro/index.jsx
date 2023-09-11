@@ -7,7 +7,7 @@ export default function PaginaCadastro(){
 <main>
     <section>
     <button>
-        <p></p>
+        <p><h1></h1></p>
     </button>
 <button></button>
 <button></button>
