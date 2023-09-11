@@ -10,13 +10,9 @@ export default function PaginaChatbot(){
 <img src="fundoPortinho" alt="fundoportinho" />
 </body>
 
-
-
-
-
-
-
-
+<footer>
+    <h1>Digite sua mensagem</h1>
+</footer>
 
 </>
     )
