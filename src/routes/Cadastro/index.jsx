@@ -5,6 +5,7 @@ export default function PaginaCadastro(){
     <h1>Cadastro da bike</h1></header>
 
 <main>
+
     <section className="cadastro">
         <h2>Cadastro</h2>
             <div className="box">
