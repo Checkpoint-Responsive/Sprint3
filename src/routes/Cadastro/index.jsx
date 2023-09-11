@@ -5,11 +5,15 @@ export default function PaginaCadastro(){
     <h1>Cadastro da bike</h1></header>
 
 <main>
-    <section></section>
+    <section>
+    <button>
+        <p></p>
+    </button>
 <button></button>
 <button></button>
 <button></button>
-<button></button>
+
+    </section>
 
 </main>
 
