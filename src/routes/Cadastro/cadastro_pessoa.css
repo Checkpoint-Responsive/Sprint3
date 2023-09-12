@@ -1,0 +1,24 @@
+/* Estilo para letras */
+.custom-input {
+    width: 466px;
+    height: 71px;
+    flex-shrink: 0;
+}
+
+/* Estilo para box */
+.custom-box {
+    width: 608px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+/* Estilo para background da tela inteira */
+body {
+    width: 1440px;
+    height: 1024px;
+    background: #7BC0FF;
+    margin: 0; /* Remova margens padrão do corpo */
+    padding: 0; /* Remova preenchimento padrão do corpo */
+}

@@ -1,14 +1,9 @@
-<<<<<<< Updated upstream
-export default function PaginaLogin(){
-    return (
-<></>
-=======
 import './login.css';
 
 export default function PaginaLogin(){
     return (
 <>
-<div className="desktop">
+    <div className="desktop">
       <div className="div">
         <div className="overlap">
           <div className="text-wrapper">Entrar</div>
@@ -32,6 +27,5 @@ export default function PaginaLogin(){
       </div>
     </div>
 </>
->>>>>>> Stashed changes
     )
 }
