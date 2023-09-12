@@ -11,6 +11,8 @@ export default function PaginaPerfil(){
     <h2>Detalhes do Seguro</h2>
     <h2>Contrato</h2>
     <h2>Termos de Uso</h2>
+    <img src="./img/sair.png"/>
+    <h2>Sair</h2>
     </section>
 </>
     )
