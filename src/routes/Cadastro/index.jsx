@@ -9,23 +9,22 @@ export default function PaginaCadastro(){
     <section className="cadastro">
             <div className="box">
                 <p>Tire uma foto da bicicleta</p>
-                <button>oi</button>
                 <button className="btnEnviar">Enviar</button>
             </div>
             <div className="box">
                 <p>Tire uma foto do guidão</p>
-                <button>oi</button>
                 <button className="btnEnviar">Enviar</button>
                 </div>
             <div className="box">
                 <p>Tire uma foto da bicicleta</p>
-                <button>oi</button>
                 <button className="btnEnviar">Enviar</button>
                 </div>
             <div className="box">
                 <p>Tire uma foto das rodas</p>
-                <button>oi</button>
                 <button className="btnEnviar">Enviar</button>
+            </div>
+            <div className="box">
+                <button className="btnEnviar">Sair</button>
             </div>
     </section>
 </main>
