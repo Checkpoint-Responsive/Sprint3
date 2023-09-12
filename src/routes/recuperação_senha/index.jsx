@@ -1,5 +1,6 @@
+import './recuperação_senha.css';
 
-export default function PaginaLogin() {
+export default function Rec_senha() {
   return (
     <>
       <div className="hero">
@@ -10,6 +11,7 @@ export default function PaginaLogin() {
           <div className="Images">
 
             <a href="#"><img src="./img/portoseguro.png" alt="Logo da Porto"/></a>
+            <a href="#"><img src="./img/sair.png" alt="foto sair"/></a>
             <a href="#"><img src="./img/perfil.png" alt="foto perfil"/></a>
           </div>
 
@@ -20,20 +22,16 @@ export default function PaginaLogin() {
 
               <fieldset>
 
-                <legend>Login</legend>
+                <legend>Recuperação Senha</legend>
 
                 <div>
-                  <label htmlFor="idUserName">Username:</label>
-                  <input type="text" name="txtUserName" id="idUserName" placeholder="UserName" />
+                  <label htmlFor="idEmail">Email Cadastrado:</label>
+                  <input type="text" name="txtEmail" id="idEmail" placeholder="Email Cadastrado" />
                 </div>
 
-                <div>
-                  <label htmlFor="idPassword">Senha:</label>
-                  <input type="text" name="txtpassword" id="idpassword" placeholder="Senha" />
-                </div>
-
+               
                 <div id="buttons">
-                  <button type="submit" id="btnEntrar">Entrar</button>
+                  <button type="submit" id="btnReenviar">Reenviar Senha</button>
                 </div>
 
               </fieldset>
@@ -41,8 +39,7 @@ export default function PaginaLogin() {
             </form>
 
             <nav>
-              <a href="#">Esqueci minha senha</a>
-              <a href="#">Cadastre-se</a>
+              <a href="./Login/index.jsx">Sair</a>
             </nav>
             
           </div>
@@ -51,3 +48,4 @@ export default function PaginaLogin() {
     </>
   );
 }
+
