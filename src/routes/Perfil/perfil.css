@@ -1,4 +1,31 @@
-*{
+/* Estilo para 'Olá' */
+.ola {
+    width: 228px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Caudex;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  /* Estilo para 'Status do Seguro' */
+  .status-seguro {
+    width: 459px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Caudex;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  /* Estilo para 'Ajuda' */
+  .ajuda {
     width: 336px;
     height: 55px;
     flex-shrink: 0;
@@ -8,6 +35,44 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
-    
-    
+  }
+  
+  /* Estilo para as outras seções */
+  /* Adicione estilos para 'Dados Pessoais', 'Detalhes do Seguro', 'Contato' e 'Termos de Uso' aqui */
+  
+  /* Estilo para imagens */
+  .imagem-perfil {
+    width: 126px;
+    height: 126px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+  
+  .imagem-sair {
+    width: 89px;
+    height: 89px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+  
+  /* Estilo para o texto 'Sair' */
+  .texto-sair {
+    width: 318px;
+    height: 86px;
+    flex-shrink: 0;
+    color: #F4F1F1;
+    font-family: Caudex;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  /* Estilo para o background da tela inteira */
+body {
+    width: 1440px;
+    height: 1024px;
+    background-color: #7BC0FF; /* Altere o background para a cor desejada */
+    margin: 0; /* Remova margens padrão do corpo */
+    padding: 0; /* Remova preenchimento padrão do corpo */
+  }
