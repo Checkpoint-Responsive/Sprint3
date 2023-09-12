@@ -1,3 +1,4 @@
+import 'perfil.css'
 export default function PaginaPerfil(){
     return (
 <>
