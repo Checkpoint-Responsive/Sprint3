@@ -2,19 +2,22 @@ import './login.css';
 import { Link } from 'react-router-dom'
 import {perfil} from '../../img/perfil.png';
 import {logoporto} from '../../img/portoSeguro.png';
+import {sair} from '../../img/sair.png';
+
 
 export default function Login() {
   return (
     <>
     <main className="container">
       <div className="head">
+          <img src={logoporto} alt="Logo da porto"/>
           <img src={perfil} alt="foto perfil"/>
       </div>
   
       <div>
           <form action="#">
               <div className="divInput">
-                  <input type="text"  class="input"  name="txtUserName" id="idUserName" placeholder="UserName" />
+                  <input type="text"  class="input"  name="txtRecSenha" id="idRecSenha" placeholder="Recuperação de Senha" />
               </div>
               <div className="divInput">
                   <input type="password"  class="input"  name="txtpassword" id="idpassword" placeholder="Senha" />

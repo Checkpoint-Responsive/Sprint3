@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="/cadastro_pessoa.css"></link>
-export default function PaginaCadastro() {
+export default function CadastroPessoa() {
     return (
         <>
             <header>

@@ -2,13 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import PaginaCadastro from './routes/Cadastro/index.jsx'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import CadastroPessoa from './routes/CadastroPessoa/index.jsx'
+import RecuperacaoSenha from './routes/RecuperacaoSenha/index.jsx'
 import Error from './routes/Error/index.jsx'
-import PaginaLogin from './routes/Login/index.jsx'
-
-
-
-
+import Login from './routes/Login/index.jsx'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
 
 const router = createBrowserRouter([
@@ -20,12 +18,21 @@ children:[
 {
   path: "/pagina-cadastro",
   element:<PaginaCadastro/>
-
-
 },
 {
   path: "/pagina-login",
-  element:<PaginaLogin/>
+  element:<Login/>
+
+},
+{
+  path: "/recuperacao-senha",
+  element:<RecuperacaoSenha/>
+
+},
+{
+  path: "/cadastro-pessoa",
+  element:<CadastroPessoa/>
+
 }
 ]
 }
