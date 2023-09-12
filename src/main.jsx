@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import PaginaCadastro from './routes/Cadastro/index.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import Error from './routes/Error/index.jsx'
+import PaginaLogin from './routes/Login/index.jsx'
+
 
 
 
@@ -18,6 +21,11 @@ children:[
   path: "/pagina-cadastro",
   element:<PaginaCadastro/>
 
+
+},
+{
+  path: "/pagina-login",
+  element:<PaginaLogin/>
 }
 ]
 }
