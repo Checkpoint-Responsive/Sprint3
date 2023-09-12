@@ -1,3 +1,4 @@
+import './login.css';
 
 export default function PaginaLogin() {
   return (
@@ -50,4 +51,3 @@ export default function PaginaLogin() {
       </div>
     </>
   );
-}

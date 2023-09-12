@@ -20,7 +20,7 @@ export default function PaginaCadastro(){
                 <button className="btnCamera"><img src={camera} alt="" /></button>
                 </div>
             <div className="box">
-                <p>Tire uma foto da bicicleta</p>
+                <p>Tire uma foto do banco</p>
                 <button className="btnCamera"><img src={camera} alt="" /></button>
                 </div>
             <div className="box">
