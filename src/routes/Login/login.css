@@ -1,144 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap%27');
 
-.desktop {
-    background-color: #7bbfff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Caudex', serif;
+  background-color: #7BC0FF;
+}
+
+.container{
+  min-height: calc(100vh - 60px);;
+}
+
+.head{
+  padding: 20px;
   
-  .desktop .div {
-    background-color: #7bbfff;
-    height: 1024px;
-    position: relative;
-    width: 1440px;
+}
+
+.divInput{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  .input{
+      width: 40%;
+      height: 30px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 2px solid white; 
+      outline: none; 
+      font-size: 20px;
+      color: white;
+      margin-top: 50px;
   }
+}
+
+.input::placeholder {
+  color: white;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  & .btnEntrar{
+      background-color: white;
+      border-radius: 20px;
+      padding: 10px;
+      font-size: 20px;
+      width: 15%;
+      border-style: none;
+      cursor: pointer;
+  }
+}
+
+.pLinks{
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
   
-  .desktop .overlap {
-    background-image: url(./rectangle-20.svg);
-    background-size: 100% 100%;
-    height: 76px;
-    left: 515px;
-    position: absolute;
-    top: 600px;
-    width: 410px;
+  & p{
+      width: 100%;
+      padding: 10px;
+      
+      & a{
+          text-decoration: none;
+          color: white;
+      }
   }
-  
-  .desktop .text-wrapper {
-    color: #000000;
-    font-family: "Caudex-Bold", Helvetica;
-    font-size: 40px;
-    font-weight: 700;
-    left: 140px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 15px;
-    width: 136px;
-  }
-  
-  .desktop .overlap-group {
-    height: 61px;
-    left: 275px;
-    position: absolute;
-    top: 421px;
-    width: 893px;
-  }
-  
-  .desktop .text-wrapper-2 {
-    color: #ffffff;
-    font-family: "Caudex-Bold", Helvetica;
-    font-size: 40px;
-    font-weight: 700;
-    left: 5px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-    width: 609px;
-  }
-  
-  .desktop .line {
-    height: 3px;
-    left: 0;
-    object-fit: cover;
-    position: absolute;
-    top: 54px;
-    width: 893px;
-  }
-  
-  .desktop .overlap-2 {
-    height: 60px;
-    left: 275px;
-    position: absolute;
-    top: 243px;
-    width: 893px;
-  }
-  
-  .desktop .text-wrapper-3 {
-    color: #f4f1f1;
-    font-family: "Caudex-Bold", Helvetica;
-    font-size: 40px;
-    font-weight: 700;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-    width: 718px;
-  }
-  
-  .desktop .img {
-    height: 2px;
-    left: 0;
-    object-fit: cover;
-    position: absolute;
-    top: 50px;
-    width: 893px;
-  }
-  
-  .desktop .text-wrapper-4 {
-    color: #f4f1f1;
-    font-family: "Caudex-Bold", Helvetica;
-    font-size: 30px;
-    font-weight: 700;
-    left: 570px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 685px;
-    white-space: nowrap;
-    width: 301px;
-  }
-  
-  .desktop .text-wrapper-5 {
-    color: #f4f1f1;
-    font-family: "Caudex-Bold", Helvetica;
-    font-size: 35px;
-    font-weight: 700;
-    left: 623px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 825px;
-    white-space: nowrap;
-    width: 195px;
-  }
-  
-  .desktop .image {
-    height: 92px;
-    left: 420px;
-    object-fit: cover;
-    position: absolute;
-    top: 913px;
-    width: 606px;
-  }
-  
-  .desktop .image-2 {
-    height: 136px;
-    left: 27px;
-    object-fit: cover;
-    position: absolute;
-    top: 33px;
-    width: 136px;
-  }
+}
+
+.footer{
+  display: flex;
+  height: 100%;
+  min-height: 40px;
+  justify-content: center;
+}

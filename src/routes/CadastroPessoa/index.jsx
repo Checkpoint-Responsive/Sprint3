@@ -1,5 +1,5 @@
 import React from 'react';
-import './cadastro_pessoa.css'; // Importe seu arquivo de estilo corretamente
+import './cadastro_pessoa.css';
 
 export default function PaginaCadastro() {
     return (

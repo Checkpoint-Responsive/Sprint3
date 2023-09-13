@@ -1,53 +1,42 @@
 import './login.css';
+import { Link } from 'react-router-dom'
+import {perfil} from '../../img/perfil.png';
+import {logoporto} from '../../img/portoSeguro.png';
 
-export default function PaginaLogin() {
+export default function Login() {
   return (
     <>
-      <div className="hero">
-
-
-        <section className="mainContent">
-
-          <div className="Images">
-
-            <a href="#"><img src="./img/portoseguro.png" alt="Logo da Porto"/></a>
-            <a href="#"><img src="./img/perfil.png" alt="foto perfil"/></a>
-          </div>
-
-          <div className="card">
-            <form name="frm01" method="get">
-
-              <input type="hidden" name="txtOculto" value="ValorOculto" />
-
-              <fieldset>
-
-                <legend>Login</legend>
-
-                <div>
-                  <label htmlFor="idUserName">Username:</label>
-                  <input type="text" name="txtUserName" id="idUserName" placeholder="UserName" />
-                </div>
-
-                <div>
-                  <label htmlFor="idPassword">Senha:</label>
-                  <input type="text" name="txtpassword" id="idpassword" placeholder="Senha" />
-                </div>
-
-                <div id="buttons">
-                  <button type="submit" id="btnEntrar">Entrar</button>
-                </div>
-
-              </fieldset>
-
-            </form>
-
-            <nav>
-              <a href="#">Esqueci minha senha</a>
-              <a href="#">Cadastre-se</a>
-            </nav>
-            
-          </div>
-        </section>
+    <main className="container">
+      <div className="head">
+      <Link to="/pagina-perfil"> <img src={perfil} alt="foto perfil"/> </Link>
       </div>
+  
+      <div>
+          <form action="#">
+              <div className="divInput">
+                  <input type="text"  class="input"  name="txtUserName" id="idUserName" placeholder="UserName" />
+              </div>
+              <div className="divInput">
+                  <input type="password"  class="input"  name="txtpassword" id="idpassword" placeholder="Senha" />
+                </div>
+  
+                <div className="btn">
+                  <button type="submit" class="btnEntrar">Entrar</button>
+                </div>
+                
+                <div className="pLinks">
+                  <p className="primeiroLink"><Link to="/recuperacao-senha">Esqueci minha senha</Link></p>
+                  <p><Link to="/cadastro-pessoa">Cadastre-se</Link>
+</p>
+                </div>
+          </form>
+  
+          
+      </div>
+      
+  </main>
+  <footer className="footer">
+      <img src={logoporto} alt="logo porto seguro"/>
+  </footer>
     </>
-  );
+  )};

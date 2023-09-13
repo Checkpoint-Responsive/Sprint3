@@ -1,6 +1,6 @@
 import camera from '../../img/camera.png'
 import './cadastro.css'
-export default function PaginaCadastro(){
+export default function Cadastro(){
 
 
     return (
