@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import PaginaCadastro from './routes/Cadastro/index.jsx'
+import Cadastro from './routes/Cadastro/index.jsx'
 import CadastroPessoa from './routes/CadastroPessoa/index.jsx'
 import RecuperacaoSenha from './routes/RecuperacaoSenha/index.jsx'
 import Error from './routes/Error/index.jsx'
@@ -17,7 +17,7 @@ errorElement: <Error/>,
 children:[
 {
   path: "/pagina-cadastro",
-  element:<PaginaCadastro/>
+  element:<Cadastro/>
 },
 {
   path: "/pagina-login",

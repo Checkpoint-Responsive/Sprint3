@@ -8,7 +8,7 @@ export default function Login() {
     <>
     <main className="container">
       <div className="head">
-          <img src={perfil} alt="foto perfil"/>
+      <Link to="/pagina-perfil"> <img src={perfil} alt="foto perfil"/> </Link>
       </div>
   
       <div>
