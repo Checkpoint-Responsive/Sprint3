@@ -61,3 +61,26 @@ flex-wrap: wrap;
     line-height: normal;
     cursor: pointer;
 }
+
+/* Estilo para inputs */
+.custom-input {
+    width: 100%;
+    height: 40px; /* Ajuste a altura conforme necessário */
+    border: 1px solid #ccc; /* Adicione uma borda para destacar os inputs */
+    border-radius: 5px; /* Arredonde as bordas dos inputs */
+    margin-bottom: 10px; /* Adicione espaço entre os inputs */
+    padding: 5px; /* Adicione espaço interno nos inputs */
+}
+
+/* Estilo para o contêiner do formulário */
+.form-group {
+    margin-bottom: 20px; /* Adicione espaço entre grupos de inputs */
+}
+
+/* Estilo para o corpo da página */
+body {
+    background: #7BC0FF;
+    margin: 0;
+    padding: 0;
+}
+
