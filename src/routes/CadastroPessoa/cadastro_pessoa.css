@@ -22,3 +22,32 @@ body {
     margin: 0; /* Remova margens padrão do corpo */
     padding: 0; /* Remova preenchimento padrão do corpo */
 }
+
+/* Estilo para texto */
+* {
+    width: 336px;
+    height: 55px;
+    flex-shrink: 0;
+    color: #F4F1F1;
+    font-family: Caudex;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Estilo para h2 */
+h2 {
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+/* Estilo para imagens */
+img {
+    max-width: 100%;
+    height: auto;
+}

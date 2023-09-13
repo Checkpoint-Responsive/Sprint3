@@ -1,4 +1,30 @@
-*{
+/* Estilo para letras */
+.custom-input {
+    width: 466px;
+    height: 71px;
+    flex-shrink: 0;
+}
+
+/* Estilo para box */
+.custom-box {
+    width: 608px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+/* Estilo para background da tela inteira */
+body {
+    width: 1440px;
+    height: 1024px;
+    background: #7BC0FF;
+    margin: 0; /* Remova margens padrão do corpo */
+    padding: 0; /* Remova preenchimento padrão do corpo */
+}
+
+/* Estilo para texto */
+* {
     width: 336px;
     height: 55px;
     flex-shrink: 0;
@@ -9,18 +35,19 @@
     font-weight: 700;
     line-height: normal;
 }
-    
+
+/* Estilo para h2 */
 h2 {
-    width: auto; /* Redefina a largura para ajustar o conteúdo */
-    height: auto; /* Redefina a altura para ajustar o conteúdo */
-    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+    width: auto;
+    height: auto;
+    font-size: 24px;
     font-weight: 700;
-    line-height: 1.2; /* Ajuste o espaçamento entre linhas conforme necessário */
-    margin: 10px 0; /* Adicione espaço vertical entre elementos <h2> */
+    line-height: 1.2;
+    margin: 10px 0;
 }
 
 /* Estilo para imagens */
 img {
-    max-width: 100%; /* Faça as imagens se ajustarem ao contêiner pai */
-    height: auto; /* Mantenha a proporção da imagem */
-}    
+    max-width: 100%;
+    height: auto;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './perfil.css'; // Importe seu arquivo de estilo corretamente
+import './perfil.css';
 
 export default function PaginaPerfil() {
     return (
